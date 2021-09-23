@@ -10,7 +10,7 @@ const usingapi=(collectingapi)=>{
      })
 }
 const cuisine=(cuisinearray)=>{
-    debugger;
+    //debugger;
    const show= document.getElementById('show');
     const normalarray=cuisinearray.replace(/\[|\]/g,'').split(',');
     normalarray.forEach(getvalue=>{
